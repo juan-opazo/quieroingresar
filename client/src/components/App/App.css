@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    /* generic */
+    --colorPrimary100: #0b3e72;
+    --colorPrimary200: #37618b;
+    --colorPrimary300: #00be8d;
+    --colorPrimary400: #00f7b5;
+    --colorPrimary500: #f8f9db;
+    --colorPrimary500hover: #f8f9db;
+    --colorPrimary500focus: #faf9db;
+
+    --fontFamily: "Roboto";
+}
+
+body, h1, h2, h3, h4 {
+    margin: 0;
+    color: #474747;
+    font-family: var(--fontFamily);
+}
+
+main {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}

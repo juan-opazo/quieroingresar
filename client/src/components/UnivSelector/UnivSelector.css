@@ -1,0 +1,46 @@
+.univ-selector-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.univ-selector-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.univ-selector-content > input {
+    width: 100%;
+    height: 3em;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    transition: box-shadow 300ms;
+    border-width: 0;
+    border-bottom-width: 2px;
+}
+
+.univ-selector-content > input:focus {
+    outline: none;
+    /* box-shadow: 0.2rem 0.8rem 1.6rem #162532; */
+}
+
+.univ-selector-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 4em;
+}
+
+.univ-selector-item:hover {
+    cursor: pointer;
+    background-color: var(--colorPrimary500hover);
+}
+
+.univ-selector-item:active {
+    background-color: var(--colorPrimary500focus);
+}

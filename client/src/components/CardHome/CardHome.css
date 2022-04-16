@@ -1,0 +1,29 @@
+.card-home-container {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: #ebecc9;
+    background: #f8f9db;
+    width: 100%;
+    max-width: 500px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.card-home-container:hover {
+    border-color: #f8f9db;
+    background: #ebecc9;
+
+}
+
+.card-home-icon {
+    margin: 1em;
+    color: #75766a;
+}
+
+.card-home-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
